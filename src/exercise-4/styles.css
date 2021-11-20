@@ -1,0 +1,47 @@
+body {
+ padding: 2rem;
+}
+
+main {
+  display: block !important;
+  width: unset !important;
+  height: unset !important;
+}
+
+h2, p {
+  margin: 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#products article {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 2rem;
+  background: #333;
+  display: flex;
+  gap: 1rem;
+}
+
+#products img {
+  width: 12vw;
+  height: 18vw;
+  object-fit: contain;
+  background-color: #ccc;
+}
+
+#products div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#userInfo fieldset {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
