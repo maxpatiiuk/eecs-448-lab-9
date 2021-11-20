@@ -14,7 +14,7 @@ $head = '<!DOCTYPE html>
       name="viewport"
       content="width=device-width, initial-scale=1, viewport-fit=cover"
     />
-    <title>EECS 448 Lab 08</title>
+    <title>EECS 448 Lab 09</title>
     <meta name="robots" content="noindex,nofollow" />
     <link rel="stylesheet" href="styles.css" />';
 
