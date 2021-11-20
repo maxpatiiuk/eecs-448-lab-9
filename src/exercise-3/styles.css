@@ -1,0 +1,22 @@
+body {
+ padding: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+form.submitted label.correct {
+  background: #064;
+}
+
+form.submitted label.selected:not(.correct) {
+  background: #604;
+}
